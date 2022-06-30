@@ -1,13 +1,13 @@
 import React from "react";
-import Button from "../Button/Button";
+import Home from "../Home/Home";
 import "../../index.css";
 
 export default {
     title: 'Home',
-    component: Button
+    component: Home
 }
 
-const Template = args => <Button {...args}></Button>
+const Template = args => <Home {...args}></Home>
 
 export const ModalButton = Template.bind({})
 

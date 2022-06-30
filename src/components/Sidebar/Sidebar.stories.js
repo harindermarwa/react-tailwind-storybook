@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import sideBarNavs from "../../Metadata/sidebarData";
 
 export default {
     title: 'Home/Modal/Sidebar',
@@ -11,5 +12,5 @@ const Template = args => <Sidebar {...args}></Sidebar>
 export const SidebarSection = Template.bind({})
 
 SidebarSection.args = {
-   navs: ['ABS', 'DISTANCE', 'TRAVELTIME']
+   navs: sideBarNavs
 }

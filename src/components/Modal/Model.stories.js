@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "../Modal/Modal";
+import sideBarNavs from "../../Metadata/sidebarData";
 
 export default {
     title: "Home/Modal",
@@ -10,4 +11,11 @@ const Template = args => <Modal {...args}></Modal>
 
 export const ModalSection = Template.bind({});
 
-ModalSection.storyName = 'Modal View'
+ModalSection.args = {
+    clickedNavItem: sideBarNavs[0],
+    handleModal: () => {
+        
+    }
+}
+
+ModalSection.storyName = 'Modal View';
