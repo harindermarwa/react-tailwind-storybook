@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "../Modal/Modal";
-import sideBarNavs from "../../Metadata/sidebarData";
+import sideBarNavs from "../../metadata/sidebarData";
 
 export default {
     title: "Home/Modal",

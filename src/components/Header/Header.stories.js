@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import HeaderMenu from "../../Metadata/headerData";
+import HeaderMenu from "../../metadata/headerData";
 
 export default {
     title: 'Home/Modal/Header',
